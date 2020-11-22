@@ -1,0 +1,39 @@
+{
+  "name": "apolloserver-boilerplate",
+  "version": "1.0.0",
+  "description": "Apollo Server Boilerplate ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "apollo-server",
+    "apollo",
+    "graphql",
+    "boilerplate"
+  ],
+  "author": "Mohamad Kaakati",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-link-context": "^1.0.17",
+    "apollo-server": "^2.3.2",
+    "apollo-server-express": "^2.3.2",
+    "aws-sdk": "^2.485.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "buffer": "^5.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "localized-strings": "^0.2.1",
+    "merge-graphql-schemas": "^1.5.8",
+    "mongoose": "^5.4.6",
+    "nodemon": "^1.19.0",
+    "path": "^0.12.7",
+    "sleep": "^6.1.0"
+  }
+}
